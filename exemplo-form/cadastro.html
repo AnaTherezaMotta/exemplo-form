@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <script src="js/main.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <main>
+
+        <section>
+            <h2>Cadastro de Clientes</h2>
+
+            <form action="">
+                <fieldset>
+                    <legend>Informações pessoais</legend>
+
+                    <div>
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" name="Name" placeholder="Ana" required>
+                    </div>
+                    <div>
+                        <label for="Sobrenome">Sobrenome:</label>
+                        <input type="text" id="sobrenome" name="Sobrenome" placeholder="Silva" required>  
+                    </div>
+                    <div>
+                        <label for="Nascimento">Data de nascimento:</label>
+                        <input type="date" id="nascimento" name="Nascimento">
+                    </div>
+                    <div>
+                        <label for="Email">Email:</label>
+                        <input type="email" id="email" name="Email" placeholder="ana@gmail.com" required>  
+                    </div>
+                    <div>
+                        <label for="status">Status civil:</label>
+                        <select name="" id="">
+                            <option value="solteiro">Solteiro</option>
+                            <option value="casado">Casado</option>                            
+                        </select>
+                    </div>
+                    
+                </fieldset>
+                <fieldset>
+                    <legend>Contato</legend>
+                </fieldset>
+                <fieldset>
+                    <legend>Pagamento</legend>
+                </fieldset>
+            </form>
+        </section>
+            
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>

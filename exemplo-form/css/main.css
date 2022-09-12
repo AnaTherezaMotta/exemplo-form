@@ -1,0 +1,10 @@
+div{
+    width: 200px;
+    height: 48px;
+    border: 1px solid red;
+    padding: 12px;
+    margin: 24px;
+    background-color: lightblue;
+    color: rgb(47, 48, 48);
+    border-radius: 12px;
+}
